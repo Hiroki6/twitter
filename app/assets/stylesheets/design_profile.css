@@ -1,0 +1,283 @@
+/* プロフィール*/
+.logo{
+    float: left;
+    display: block;
+    width: 30px;
+    height: auto;
+}
+.clearfix:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size: 0;   
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix{
+    display: inline-table;
+}
+* html .clearfix{
+    height: 1%;
+}
+.clearfix{
+    display: block;
+}
+header{
+    width: 1000px;
+    margin: 0 auto;
+}
+header:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size: 0;   
+    clear: both; 
+    visibility: hidden;
+}
+.home{
+    float: left;
+    width: 450px;
+}
+.home img{
+    width: 30px;
+}
+header form{
+    float: right;
+    margin: 0;
+}
+.search{
+    height: 25px;
+    border-radius: 10px;
+}
+.error{
+    width: 200px;
+    margin: 0 auto;
+    background-color: #ffff00;
+    border-radius: 10px;
+}
+.error p{
+    color: #ff0000;
+    font-size: 150%;
+}
+.main{
+    background-color: #00fa9a;
+    margin: 0;
+}
+.follow_action{
+    width: 200px;
+    margin: 0 auto;
+}
+.follow{
+    background-color: #3cb371;
+    color: #fff;
+    font-size: 150%;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+article{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+article:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size: 0;   
+    clear: both; 
+    visibility: hidden;
+}
+.profile{
+    border-radius: 5px;
+    background-image: url("../images/bg_header.png");
+    background-color: #ccffcc;
+    width: 250px;
+    margin: 10px;
+    float: left;
+}
+.profile p{
+    border-bottom: solid 1px #191970;
+}
+.profile_img{
+    width: 200px;
+    height: 200px;
+}
+.location{
+    width:15px;
+}
+.timeline{
+    float: left;
+    width: 400px;
+    margin: 10px;
+}
+.detail{
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.detail ul{
+    margin: 0 auto;
+}
+.detail ul:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size: 0;   
+    clear: both; 
+    visibility: hidden;
+}
+.detail ul a{
+    width: 100px;
+    float: left;
+    font-size: 100%;
+    list-style: none;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #191970;
+}
+.detail ul a:hover{
+    color: #7fffd4;
+    border-bottom: solid 5px #7fffd4;
+}
+.detail ul a:first-child{
+    color: #7fffd4;
+    border-bottom: solid 5px #7fffd4;
+}
+.tweet{
+    background-color: #f5fffa;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.tweet:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size: 0;   
+    clear: both; 
+    visibility: hidden;
+}
+input.content{
+    width: 350px;
+    height: 40px;
+    float: left;
+    font-size: 100%;
+    border-radius: 20px;
+    margin: 0 20px;
+}
+.submit{
+    background-color: #7fffd4;
+    width: 100px;
+    height: 30px;
+    color: #191970;
+    font-size: 100%;
+    float: right;
+    border-radius: 20px;
+    margin:5px 10px 0 0;
+}
+.edition{
+    background-color: #f0ffff;
+    width: 290px;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+}
+.edition p{
+    text-align: center;
+    font-size: 150%;
+}
+.element{
+    text-align: center;
+}
+.edition input{
+    width: 250px;
+    height: 20px;
+    margin: 0 15px;
+    color: #00fa9a;
+    font-size: 85%;
+}
+.edition input:last-child{
+    background-color: #7fffd4;
+    width: 100px;
+    height: 30px;
+    color: #191970;
+    font-size: 100%;
+    float: right;
+    border-radius: 5px;
+}
+.contents{
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.timeline_img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.tweet_content{
+    padding: 0 5px;
+    border-bottom: solid 2px #7fffd4;
+}
+.tweet_content p{
+    color: #ff00ff;
+    font-size: 120%;
+    margin: 0;
+}
+.tweet_content:last-child{
+    border: none;
+}
+.tweet_content:hover{
+    background-color: #f0f8ff;
+}
+.tweet_content a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+.tweet_content:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size: 0;    
+    clear: both; 
+    visibility: hidden;
+}
+.reply{
+    float: right;
+    background-color: #b22222;
+    color: #fff;
+    width: 60px;
+    font-size: 80%;
+    border-radius: 10px
+}
+.retweet{
+    float: right;
+    background-color: #f0fff0;
+    color: #000080;
+    width: 120px;
+    font-size: 80%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.reply_content{
+    width: 300px;
+    height: 25px;
+    float: left;
+    font-size: 100%;
+    border-radius: 20px;
+}
+footer{
+    width: 1000px;
+    margin: 0 auto;
+}
+.logout{
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: #000;
+    color: #ffff00;
+    font-size: 100%;
+}

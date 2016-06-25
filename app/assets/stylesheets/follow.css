@@ -1,0 +1,163 @@
+.logo{
+    float:left;
+    display:block;
+    width:30px;
+    height:auto;
+}
+header{
+    width:1000px;
+    margin:0 auto;
+}
+header:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size:0;    
+    clear: both; 
+    visibility:hidden;
+}
+.home{
+    float: left;
+    width: 450px;
+}
+.home img{
+    width: 30px;
+}
+header form{
+    float: right;
+    margin: 0;
+}
+.search{
+    height: 25px;
+    border-radius: 10px;
+}
+.main{
+    margin: 0;
+}
+.red{
+    background-color: #ffc0cb;
+}
+.purple{
+    background-color: #d2a6ff;
+}
+.light_red{
+    background-color: #ffe4e1;
+}
+.light-purple{
+    background-color: #e8d1ff;
+}
+article{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+article:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size: 0;    
+    clear: both; 
+    visibility: hidden;
+}
+.profile{
+    border-radius: 5px;
+    background-image: url("../images/bg_header.png");
+    width: 250px;
+    margin: 10px;
+    float: left;
+}
+.profile p{
+    border-bottom:solid 1px #191970;
+}
+.profile_img{
+    width: 200px;
+    height: auto;
+}
+.location{
+    width: 15px;
+}
+.timeline{
+    float: left;
+    width: 700px;
+    margin: 10px;
+}
+.detail{
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 400px;
+}
+.detail ul{
+    margin: 0 auto;
+}
+.detail ul:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size: 0;    
+    clear: both; 
+    visibility: hidden;
+}
+.detail ul a{
+    width: 100px;
+    float: left;
+    font-size: 100%;
+    list-style: none;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+.hover_red a:hover{
+    color: #ffc0cb;
+    border-bottom: solid 5px #ffc0cb;
+}
+.hover_purple a:hover{
+    color: #e8d1ff;
+    border-bottom: solid 5px #e8d1ff;
+}
+.select_red{
+    color: #ffc0cb;
+    border-bottom: solid 5px #ffc0cb;
+}
+.select_purple{
+    color: #e8d1ff;
+    border-bottom: solid 5px #e8d1ff;
+}
+.follow_people{
+    width:700px;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.follow_people:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size: 0;    
+    clear: both; 
+    visibility: hidden;
+}
+.follow_person{
+    width: 200px;
+    float: left;
+    margin: 15px;
+}
+.follow_person img{
+    width: 180px;
+    height: 180px;
+}
+.another_name{
+    font-size: 150%;
+}
+footer{
+    width: 1000px;
+    margin: 0 auto;
+}
+.logout{
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: #000;
+    color: #ffff00;
+    font-size: 100%;
+}

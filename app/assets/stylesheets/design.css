@@ -1,0 +1,348 @@
+/*全てのをまとめたcss、タイムラインをもとに編集*/
+/* タイムライン */
+.logo{
+    float: left;
+    display: block;
+    width: 30px;
+    height: auto;
+}
+header{
+    width: 1000px;
+    margin: 0 auto;
+}
+.error{
+    width:200px;
+    margin:0 auto;
+    background-color:#ffff00;
+    border-radius:10px;
+}
+.error p{
+    color:#ff0000;
+    font-size:150%;
+}
+/* 新規登録画面 */
+.register_main{
+    background-color:#00bfff;
+    padding:30px;
+}
+.register_article{
+    width:800px;
+    border-radius:5px;
+    margin:0 auto;
+    background-color:#fff;
+    font-size:200%;
+    padding:50px 80px;
+}
+input.input_form{
+    width:500px;
+    height:30px;
+    border-radius:5px;
+}
+.register{
+    width:500px;
+    background-color:#00bfff;
+    color:#fff;
+    font-size:100%;
+}
+/* 新規登録画面終了 */
+.clearfix:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size: 0;	
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix{
+    display:inline-table;
+}
+* html .clearfix{
+    height: 1%;
+}
+.clearfix{
+    display:block;
+}
+
+.home{
+    width: 450px;
+    float: left;
+}
+.home img{
+    width: 30px;
+}
+header form{
+    float: right; 
+    margin: 0;
+}
+.search{
+    height: 25px;
+    border-radius: 10px;
+} 
+.main{
+    background-color: #00bfff;
+    margin: 0;
+}
+article{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+/*タイムライン画面用*/
+.profile{
+    border-radius: 5px;
+    width: 250px;
+    height: 220px;
+    float: left;
+    margin: 10px;
+    position: relative;
+    background-image: url("../images/bg_header.png");
+    background-color: #afeeee;
+}
+.profile_img{
+    width: 60px;
+    height: 80px;
+}
+.top{
+    position: absolute;
+    top: 70px;
+    width: 250px;
+    margin: 0;
+}
+/*プロフィール画面用*/
+.profile_detail{
+	border-radius: 5px;
+    background-image: url("../images/bg_header.png");
+    background-color: #ccffcc;
+    width: 250px;
+    margin: 10px;
+    float: left;
+}
+.profile_detail p{
+    border-bottom: solid 1px #191970;
+}
+.profile_detail_img{
+    width: 200px;
+    height: auto;
+}
+.location{
+    width:15px;
+}
+.name{
+    text-decoration: none;
+    color: #000;
+    font-size: 150%;
+}
+.name:hover{
+    border-bottom: solid 3px #00bfff;
+    color: #00bfff;
+}
+/*タイムライン画面用*/
+.timeline{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+}
+.left{
+    float:left;
+}
+/*プロフィール画面用*/
+.profile_timeline{
+    float: left;
+    width: 400px;
+    margin: 10px;
+}
+.detail{
+    position: absolute;
+    top: 150px;
+}
+ul{
+    margin: 5px;
+    padding: 0px;
+}
+
+.detail ul a:hover{
+    color: #ffff00;
+    border-bottom: solid 5px #ffff00;
+}
+.subject li{
+    width: 80px;
+    float: left;
+    font-size: 100%;
+    list-style: none;
+    text-align: center;
+    color: #191970;
+}
+.number li{
+    width: 80px;
+    float: left;
+    font-size: 100%;
+    list-style: none;
+    text-align: center;
+}
+input.content{
+    width: 450px;
+    height: 30px;
+    float: left;
+    font-size: 100%;
+    border-radius: 20px;
+}
+.submit{
+    background-color: #00bfff;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    font-size: 100%;
+    float: right;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.tweet{
+    background-color: #e0ffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+}
+
+.tweet a{
+    /*float: left;*/
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-size: 120%;
+}
+.tweet a:hover{
+    color: #000080;
+    /*background-color: #fff;*/
+}
+.contents{
+    margin: 0;
+}
+.contents a:hover{
+    color: #000080;
+    background-color: #e0ffff;
+}
+.timeline_img{
+    width: 30px;
+    height: 30px;
+}
+.tweet_content a{
+    display:block;
+    text-decoration: none;
+    color: #000;
+}
+.tweet_content{
+    padding:5px 5px;
+    border-bottom:solid 2px #00bfff;
+}
+.tweet_content:hover{
+    background-color: #f0f8ff;
+}
+.tweet_content:first-child{
+    border-top:solid 2px #00bfff;;
+}
+.tweet_content:last-child{
+    border:none;
+}
+.tweet_content p,.retweet_user{
+    color: #ff00ff;
+    font-size: 120%;
+    margin: 0;
+}
+.reply{
+    float:right;
+    background-color:#b22222;
+    color:#fff;
+    width:60px;
+    font-size:80%;
+    border-radius:10px;
+}
+.retweet{
+    float:right;
+    background-color:#f0fff0;
+    color:#000080;
+    width:120px;
+    font-size:80%;
+    border-radius:10px;
+    font-weight:bold;
+}
+.reply_content{
+    width: 400px;
+    height: 25px;
+    float: left;
+    font-size: 100%;
+    border-radius: 20px;
+}
+.search_result{
+    width: 150px;
+    margin: 0 auto;
+    background-color: #ffff00;
+    border-radius: 10px;
+}
+.search_result p{
+    color: #ff0000;
+}
+.another{
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 180px;
+    margin: 10px;
+}
+.another p{
+    text-align: center;
+    font-size: 150%;
+    color: #4169e1;
+}
+.another_user{
+    margin: 5px;
+}
+
+.another_name{
+    float: left;
+    font-size: 70%;
+    margin: 0 10px;
+}
+.another_img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.follow{
+    width: 100px;
+    height: 30px;
+    font-size: 100%;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #4169e1;
+    margin: 0 10px;
+}
+footer{
+    width: 1000px;
+    margin: 0 auto;
+}
+.logout{
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color: #000;
+    color: #ffff00;
+    font-size: 100%;
+}
+.center{
+    margin:0 auto;
+}
+.select_timeline{
+    margin:10px;
+}
+.select_timeline form{
+    float:left;
+}
+.select_timeline input{
+    width:180px;
+    margin:5px 25px;
+    height:30px;
+    font-size:100%;
+    background-color:#ffd700;
+    border-radius:10px;
+}

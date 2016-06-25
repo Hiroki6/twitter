@@ -1,0 +1,92 @@
+/*トップページのcss*/
+.main{
+    background-image: url("../images/tweet.jpg");
+    background-size: 48% auto;
+    color: #ffffff;
+    margin: 0;
+    height: 600px;
+}
+h1{
+    font-size: 200%;
+}
+.catch{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+.catch p{
+    font-size: 120%;
+}
+.wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+.wrap:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size: 0;    
+    clear: both; 
+    visibility: hidden;
+}
+
+.submit{
+    background-color: #00bfff;
+    color: #fff;
+    border-radius: 10px;
+    width: 30%;
+    font-size: 90%;
+    float: right;
+}
+header{
+    width: 80%;
+    margin: 0 auto;
+}
+.header_img{
+    width: 15%;
+    height: auto;
+}
+.login{
+    float: left;
+    margin-top: 50px;
+    width: 48%;
+}
+.login section{
+    border-radius: 10px;
+    background-color: #fff;
+    width: 67%;
+    padding: 10px;
+    margin: 10px 10px 0;
+    color: #000;
+}
+.login section:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size: 0;    
+    clear: both; 
+    visibility: hidden;
+}
+.login p{
+    margin: 0;
+}
+.content{
+    width: 100%;
+}
+.register{
+    background-color: #ffa500;
+    border-radius: 10px;
+    width: 45%;
+    float: right;
+    font-size: 90%;
+}
+.error{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ffff00;
+    border-radius: 10px;
+}
+.error p{
+    color: #ff0000;
+    font-size: 150%;
+}
